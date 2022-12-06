@@ -2,12 +2,12 @@
 
 The DuckDB driver conforms to the built-in `database/sql` interface.
 
-![Tests status](https://github.com/marcboeker/go-duckdb/actions/workflows/tests.yaml/badge.svg)
+![Tests status](https://github.com/namtzigla/duckdb/actions/workflows/tests.yaml/badge.svg)
 
 ## Installation
 
 ```
-go get github.com/marcboeker/go-duckdb
+go get github.com/namtzigla/duckdb
 ```
 
 `go-duckdb` uses `CGO` to make calls to DuckDB. You must build your binaries with `CGO_ENABLED=1`.
